@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.*
+
+# Large raw AIS dataset
+data/final_syros/
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# React
+dashboard/node_modules/
+dashboard/dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

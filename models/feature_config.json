@@ -1,0 +1,12 @@
+{
+    "features": [
+        "SOG",
+        "COG",
+        "time_gap",
+        "distance_km",
+        "speed_change",
+        "course_change_circular"
+    ],
+    "model": "IsolationForest",
+    "version": "v1"
+}

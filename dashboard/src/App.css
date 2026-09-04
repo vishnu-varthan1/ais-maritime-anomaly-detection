@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #07111f;
+  color: white;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  padding: 25px 20px;
+  background: #0b1728;
+  border-right: 1px solid #1d3048;
+}
+
+.sidebar h2 {
+  margin-bottom: 40px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+nav a {
+  padding: 12px;
+  color: #9fb0c5;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+nav a.active,
+nav a:hover {
+  background: #16304d;
+  color: white;
+}
+
+.system-status {
+  margin-top: 50px;
+  color: #72e6a3;
+}
+
+.system-status span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #72e6a3;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  color: #8da0b8;
+}
+
+.status {
+  color: #72e6a3;
+  font-weight: bold;
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin: 30px 0;
+}
+
+.card,
+.map-card,
+.alerts-card {
+  background: #0d1b2d;
+  border: 1px solid #1d3048;
+  border-radius: 12px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card p {
+  color: #8da0b8;
+  margin: 0 0 10px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.map-card,
+.alerts-card {
+  padding: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header span {
+  color: #8da0b8;
+  font-size: 14px;
+}
+
+.map-placeholder {
+  height: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #10253a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.map-placeholder p {
+  color: #8da0b8;
+}
+
+.alert {
+  margin-top: 18px;
+  padding: 15px;
+  background: #12243a;
+  border-radius: 8px;
+}
+
+.alert b {
+  color: #ffb86b;
+}
+
+.alert p {
+  margin: 8px 0;
+}
+
+.alert small {
+  color: #8da0b8;
+}
