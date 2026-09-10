@@ -14,6 +14,13 @@ The system processes real AIS vessel movement data, performs data
 cleaning and validation, engineers behavioral features, and uses an
 Isolation Forest model to identify potentially unusual movement
 patterns.
+## Video
+
+
+
+
+
+
 
 ## 🏗️ System Architecture
 
